@@ -13,7 +13,7 @@ const Footer = () => {
                         <i className="fi-xnsuxl-twitter text-[#68C9FD] mr-2 text-sm"></i>
                         Revenant was just released on #themeforest <a href="http://bit.ly/qxXj6m" className="text-blue-500">http://bit.ly/qxXj6m</a>
                     </p>
-                    <p className="text-gray-400 text-sm">
+                    <p className="text-gray-400 text-sm flex">
                         Check the latest news on our Social Networks:
                         <i className="fi-xnsuxl-rss text-[] ml-2"></i>
                         <i className="fi-cnsuxl-pinterest text-[#68C9FD] ml-2"></i>
