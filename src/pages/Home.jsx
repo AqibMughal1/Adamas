@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../components/Header";
 import ProductCard from "../components/ProductCard";
 import sliderImage from '../assets/images/slider.png';
 import Image1 from '../assets/images/jewellery.png';
@@ -9,7 +8,6 @@ import Image4 from '../assets/images/wed-ring.png'
 import Image5 from '../assets/images/diamond-sky.png'
 import Image6 from '../assets/images/black-bag.png'
 import Image7 from '../assets/images/silver-ring-small.png'
-import Footer from "../components/Footer";
 
 const collections = [
   {
@@ -32,8 +30,6 @@ const collections = [
 const Home = () => {
   return (
     <>
-      <Header />
-
       {/* Hero section */}
       <section
         className="bg-contain bg-no-repeat bg-center flex items-center h-[421px]"
@@ -55,7 +51,7 @@ const Home = () => {
       </section>
 
       {/* Headlines */}
-      <section className="px-4 pb-8 ">
+      <section className="px-4 py-8 ">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           {collections.map((collection, index) => (
             <div key={index} className="text-center">
@@ -148,8 +144,6 @@ const Home = () => {
           />
         </div>
       </section>
-
-      <Footer />
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/images/adamas-logo.png'
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
               <i className="far fa-clock mr-2"></i>
               Monday - Friday, 8:00 - 20:00
             </span>
-            
+
           </div>
           {/* Sign In / Cart */}
           <div className="flex space-x-4">
@@ -38,13 +39,48 @@ const Header = () => {
 
 
           <ul className="hidden md:flex space-x-8 font-semibold">
-            <li><a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">Home</a></li>
-            <li><a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">Apparel</a></li>
-            <li><a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">Fashion</a></li>
-            <li><a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">News</a></li>
-            <li><a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">Portfolio</a></li>
-            <li><a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">Contact</a></li>
+            <li>
+              <Link to="/" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/shop" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+                Shop
+              </Link>
+            </li>
+            <li>
+              <Link to="/product/1" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+                Single Product
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+                Contact
+              </Link>
+            </li>
+            <li>
+              <a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+                Apparel
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+                Fashion
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+                News
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-sm hover:text-[#68C9FD] relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-[#68C9FD] after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+                Portfolio
+              </a>
+            </li>
           </ul>
+
           {/* button */}
           <div className="md:hidden">
             <button>

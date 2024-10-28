@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import ProductCard from "../components/ProductCard";
 
 import Image6 from "../assets/images/black-bag.png";
 import Image5 from "../assets/images/diamond-sky.png";
 import Image7 from "../assets/images/silver-ring-small.png";
-import SilverRing from "../assets/images/silver-ring.png";
 import Image4 from "../assets/images/wed-ring.png";
 
 import Thumnail4 from "../assets/images/photodune-2669680-ring-with-stones-xs.png";
@@ -28,7 +25,6 @@ const SingleProduct = () => {
 
   return (
     <div className="bg-gray-100">
-      <Header />
       <div className="container mx-auto py-8">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
@@ -212,7 +208,6 @@ const SingleProduct = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

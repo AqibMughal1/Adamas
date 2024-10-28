@@ -1,13 +1,9 @@
-import React from "react";
-// import RoutesFile from "./routes";
-import Home from "./pages/Home";
+import React from 'react';
+import RoutesFile from './RoutesFile';
 
 function App() {
   return (
-    <>
-      {/* <RoutesFile/> */}
-      <Home/>
-    </>
+    <RoutesFile/>
   );
 }
 
