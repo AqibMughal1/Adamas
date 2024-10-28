@@ -9,13 +9,13 @@ const Footer = () => {
             {/* Twitter Announcement */}
             <div className="bg-gray-100 py-4 text-center">
                 <div className="flex justify-between items-center max-w-6xl mx-auto px-4">
-                    <p className="text-gray-400">
+                    <p className="text-gray-400 flex items-center">
                         <i className="fi-xnsuxl-twitter text-[#68C9FD] mr-2 text-sm"></i>
                         Revenant was just released on #themeforest <a href="http://bit.ly/qxXj6m" className="text-blue-500">http://bit.ly/qxXj6m</a>
                     </p>
-                    <p className="text-gray-400 text-sm flex">
+                    <p className="text-gray-400 text-sm flex items-center">
                         Check the latest news on our Social Networks:
-                        <i className="fi-xnsuxl-rss text-[] ml-2"></i>
+                        <i className="fi-xnsuxl-rss text-[#68C9FD] ml-2"></i>
                         <i className="fi-cnsuxl-pinterest text-[#68C9FD] ml-2"></i>
                         <i className="fi-xnsuxl-facebook text-[#68C9FD] ml-2"></i>
                         <i className="fi-cnsuxl-dribbble text-[#68C9FD] ml-2"></i>
