@@ -1,6 +1,4 @@
-Here is a single markdown file that you can use for your project:
 
-```markdown
 # Adamas E-Commerce Website
 
 ## Overview
